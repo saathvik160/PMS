@@ -1,0 +1,141 @@
+
+@media screen and (min-width: 48em){
+  ul.navbar {
+      text-align: justify;
+  }
+}
+
+ul.navbar {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #727272;
+}
+
+ul.navbar li {float: right;}
+
+ul.navbar li.left {
+  float: left;
+  padding-left: 20px;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(100, 100, 100);
+}
+
+.header {
+  background-color: #727272;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 24 px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #727272;
+}
+
+#projtable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  text-align: center;
+}
+
+#projtable td, #projtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#projtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#projtable tr:hover {background-color: #ddd;}
+
+#projtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #727272;
+  color: white;
+}
+
+#formtable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  text-align: left;
+  background-color: #727272;
+  color: white;
+}
+
+#formtable td {
+  padding: 25px;
+}
+
+#formsubmit {
+  background-color: #727272;
+  border: none;
+  color: white;
+  padding: 18px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* .Modal {
+  position: absolute;
+  display: block;
+  margin: 3% 300px;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color: rgb(0,0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.alert {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 75px;
+}
